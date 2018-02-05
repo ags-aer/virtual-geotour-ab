@@ -1,0 +1,35 @@
+.btn-green {
+  display: inline-block;
+  background-color: #326611;
+  border-color: #326611;
+  color: #FFF;
+  padding: 3px 8px;
+  border-radius: 15px;
+  }
+
+.btn-green:hover {
+  transition-property: background-color, color;
+  transition-duration: 2s;
+  color: #FFF;
+  background-color: #73AA50;
+  border-color: #73AA50;
+  }
+
+a:hover {
+  text-decoration: none;
+  }
+
+a:hover span {
+  text-decoration: underline;
+}
+
+.more-information {
+  text-align: center;
+  line-height: 2;
+}
+
+.more-information:hover {
+  transition-property: color;
+  transition-duration: 1s;
+  color: #00bfff; /* deepskyblue */
+}
