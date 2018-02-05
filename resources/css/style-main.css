@@ -3,16 +3,20 @@
   background-color: #326611;
   border-color: #326611;
   color: #FFF;
-  padding: 3px 8px;
+  padding: 1px 12px;
   border-radius: 15px;
   }
 
-.btn-green:hover {
+/*.btn-green:hover {
   transition-property: background-color, color;
   transition-duration: 2s;
   color: #FFF;
   background-color: #73AA50;
   border-color: #73AA50;
+  }*/
+
+  .btn-green:hover {
+      filter: brightness(120%)
   }
 
 a:hover {
